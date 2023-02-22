@@ -21,6 +21,7 @@ body {
 }
 
 .first-block {
+   display: flex;
    width: 320px;
    margin-left: 141px;
    margin-top: 50px;
@@ -50,7 +51,7 @@ body {
 }
 
 .first-block-field-item input {
-   width: 320px;
+   width: 315px;
    height: 44px;
    border-radius: 5px;
    margin-bottom: 5px;
@@ -58,7 +59,7 @@ body {
 }
 
 .first-block-field-item select {
-   width: 325px;
+   width: 321px;
    height: 50px;
    padding-left: 10px;
    border-radius: 5px;
@@ -84,5 +85,49 @@ body {
 
 .first-block-field-item:nth-of-type(5) div input {
    width: 150px;
-   height: 50px;
+   height: 45px;
+   padding-left: 10px;
+   text-transform: uppercase;
+}
+
+.masked-item {
+   margin-top: 10px;
+}
+
+.calendar-item {
+   margin-top: 30px;
+   font-weight: 700;
+}
+
+.filter-item {
+   margin-top: 20px;
+}
+
+.subscription-item {
+   margin-top: 25px;
+}
+
+
+
+.first-block-chekRadio {
+   width: 260px;
+   height: 537px;
+   margin-left: 130px;
+   margin-top: 10px;
+}
+
+.first-block-chekRadio-checkbox {
+   width: 222px;
+}
+
+.first-block-chekRadio-checkbox p {
+   text-transform: uppercase;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.first-block-chekRadio-checkbox div {
+   display: grid;
 }
